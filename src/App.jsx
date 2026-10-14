@@ -1,6 +1,8 @@
 // src/App.jsx
 import Navbar from './components/Navbar/Navbar';
 import AlumnoCard from './components/AlumnoCard/AlumnoCard';
+import Contador from './components/Contador/Contador';
+
 function App() {
   return (
     <>
