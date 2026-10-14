@@ -16,21 +16,26 @@ function App() {
           <AlumnoCard 
             nombre="Daniel Puccio" 
             carrera="Desarrollo de Software" 
-            estado="Matriculado" 
+            estadoInicial="Matriculado" 
           />
 
           <AlumnoCard 
             nombre="Maria Perez" 
             carrera="Diseño Gráfico" 
-            estado="Inactivo" 
+            estadoInicial="Inactivo" 
           />
 
           <AlumnoCard 
             nombre="Carlos Mendoza" 
             carrera="Administración Industrial" 
-            estado="Matriculado" 
+            estadoInicial="Matriculado" 
           />
         </div>
+        
+        <Contador
+
+
+        />
       </div>
     </>
   );
